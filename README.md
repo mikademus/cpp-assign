@@ -2,6 +2,7 @@
 A C++20 helper analogous to structured bindings to transparently assign values from pairs and tuples to already existing variables
 
 Example:
+
     std::tuple<int, float, std::string> create_tuple();
     
     int a;
