@@ -19,7 +19,7 @@ Example:
 cpp-assign fills a gap in the C++ Standard Library by providing a modern, intuitive way to assign elements from std::pair and std::tuple to existing variables. Key advantages include:
 * Complements Structured Bindings: Structured bindings (C++17) create new variables, whereas cpp-assign updates existing ones.
 * Improves on std::tie: Unlike std::tie (C++11), which has a non-intuitive name, requires initialized variables, and lacks robust support for rvalues and move semantics, cpp-assign offers a cleaner syntax and stronger type safety.
-* C++20 Features: Leverages concepts (TupleLike, AssignableFrom) for compile-time checks, ensuring size and type compatibility.
+* C++20 Features: Leverages concepts (`tuple_like`, `assignable_from`) for compile-time checks, ensuring size and type compatibility.
 * Lightweight: Zero runtime overhead after optimization, with minimal compile-time cost.
 
 
