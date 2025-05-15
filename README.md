@@ -77,7 +77,7 @@ Structured bindings, introduced in C++17, provide a concise syntax for unpacking
 ### Type Safety
 **Structured Bindings**: Type-safe, with compile-time checks for size and type compatibility.
 
-**cpp-assign**: Equally type-safe, using C++20 concepts (TupleLike, AssignableFrom) to ensure size matching and assignability, with clear error messages.
+**cpp-assign**: Equally type-safe, using C++20 concepts (`tuple_like`, `assignable_from`) to ensure size matching and assignability, with clear error messages.
 
 ### Limitations
 **Structured Bindings**: Cannot assign to existing variables, leading to verbose workarounds (e.g., manual assignments or std::tie).
